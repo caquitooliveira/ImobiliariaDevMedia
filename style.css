@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #afddfb;
+    font-family: Tahoma, sans-serif;
+}
+
+/* Container centralizado com largura fixa */
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 30px 0;
+    color: #1d1d1d;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+
+/* Centraliza todas as imagens */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Logo da imobiliária */
+img[src*="logo"] {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Imagem da casa grande */
+img[src*="imovel-assinatura"] {
+    width: 750px;
+    margin-top: 50px;
+    padding-top: 0;
+}
+
+/* Outras imagens */
+img[src*="banner"],
+img[src*="corretores"] {
+    width: 850px;
+    
+}
+
+/* Links formatados */
+a {
+    background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 25px; /* 🔵 Botão redondo adicionado */
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+    
+    
+}
+
+.lista{
+    
+    margin-left: 420px;
+}
+
+.nav-links {
+    text-align: center;
+    margin-bottom: 25px; /
+}
+
+/* Titulo */
+h1, p{
+    text-align: center;
+}
+
+/* Subtítulo */
+h2 {
+    color: #1c81c0;
+    text-align: center;
+}
+
+/* Destaques */
+span {
+    font-weight: bold;
+}
+
+/* Contato centralizado */
+.contato {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Mapa centralizado */
+iframe {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+}
